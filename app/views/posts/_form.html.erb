@@ -1,0 +1,10 @@
+<%= form_for(@post) do |f| %>
+
+  <div>
+    <%= f.date_field :date %>
+    <%= f.text_area :rationale %>
+    
+    <%= f.submit 'Save' %>
+  </div>
+
+<% end %>
