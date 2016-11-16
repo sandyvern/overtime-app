@@ -2,7 +2,7 @@ require "administrate/base_dashboard"
 
 class AdminUserDashboard < Administrate::BaseDashboard
   ATTRIBUTE_TYPES = {
-    posts: Field::HasMany.with_options(searchable: false)
+    posts: Field::HasMany.with_options(searchable: false),
     id: Field::Number.with_options(searchable: false),
     email: Field::String.with_options(searchable: true),
     password: Field::String.with_options(searchable: false),
