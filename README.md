@@ -23,3 +23,4 @@ Key requirements: Company needs documentation that salaried employees did or did
 ## Refactor TODOS:
 - Refactor user association in post_spec
 - Refactor posts/_form for admin user with status
+- Fix post_spec.rb:82 to use factories
